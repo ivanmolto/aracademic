@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="High-quality Open Access publishing based on Arweave Blockchain">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Arweave Academic">
+        <meta property="og:image" content="images/icon-512.png">
+        <meta property="og:description" content="High-quality Open Access publishing based on Arweave Blockchain">
+
+        <meta name="theme-color" content="#ffffff">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Arweave Academic">
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+        <link rel="preload" crossorigin as="font" type="font/woff2" href="fonts/noto-serif-400.woff2">
+        <link rel="preload" crossorigin as="font" type="font/woff2" href="fonts/noto-serif-700.woff2">
+        <link rel="preload" crossorigin as="font" type="font/woff2" href="fonts/ibm-plex-sans-700.woff2">
+        <link rel="preload" crossorigin as="font" type="font/woff2" href="fonts/ibm-plex-sans-400.woff2">
+
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="bundle.css">
+
+        <link rel="manifest" href="manifest.json">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="images/icon-192.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="images/icon-512.png">
+
+        <title>Arweave Academic</title>
+    </head>
+
+    <body>
+        <noscript>ArAcademic required JavaScript</noscript>
+
+        <script defer src="scripts/markdown-it.min.js"></script>
+        <script defer src="scripts/markdown-it-plugins.min.js"></script>
+    	<script defer src="bundle.js"></script>
+
+        <script>
+            ('serviceWorker' in navigator) && navigator.serviceWorker.register('sw.js');
+        </script>
+    </body>
+</html>

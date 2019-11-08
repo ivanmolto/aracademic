@@ -1,0 +1,66 @@
+{
+    "manifest": "arweave/paths",
+    "version": "0.1.0",
+    "index": {
+        "path": "index.html"
+    },
+    "paths": {
+        "fonts/ibm-plex-sans-400.woff2": {
+            "id": "V5gnJ-KF01z_qZPv2vtoS4yYbpAmayA4rPg-FNVYo_s"
+        },
+        "fonts/ibm-plex-sans-700.woff2": {
+            "id": "Icf6mtGY3rlavD4HDpxJ7X1BhfWAq_va_r6-Tla5CxM"
+        },
+        "fonts/noto-serif-400.woff2": {
+            "id": "SHSbDnYHNBjI9EXMDAH6NaWLzMMMS6JGiXvjWEzVU1k"
+        },
+        "fonts/noto-serif-700.woff2": {
+            "id": "CJJ1fcYaWZF_aAM5HjGzku6JoV2qLGBgNGa8O0s0rQ4"
+        },
+        "images/favicon.png": {
+            "id": "XrxuPvWw9k-AehHLTZGnkywzINCf4wr2iytLXk5Cfmw"
+        },
+        "images/icon-192.png": {
+            "id": "sb5GoiPqznytk02xDOzHYug4FXX58cj88bJf7CVhZME"
+        },
+        "images/icon-512.png": {
+            "id": "cIoOagKwQtH8ifAR_R0lHjAingFDkLil2mujCCf3Cyw"
+        },
+        "images/hero@1x.png": {
+            "id": "eqm4ZQ7nm0PPYoTs1fQsu52Z2TXSzdYtD6b7ZfEDprY"
+        },
+        "images/hero@1x.webp": {
+            "id": "z_YhHkO-xk8JhW2XI__5GC2pCKGMfsO7gyqHub_PenU"
+        },
+        "images/hero@2x.png": {
+            "id": "qAuoPEpaLTsEBqxLZ-y4y8NglkevzDXqhjtLQgm-JBg"
+        },
+        "images/hero@2x.webp": {
+            "id": "uTrFNZfXFgAkQ9_P3UJejrYm72N6uVysQ9Ze0yKEv2s"
+        },
+        "scripts/markdown-it.min.js": {
+            "id": "DwuW8vk4V9_QwqFShrn9g-44cA20nzg0WwHMynN-yDQ"
+        },
+        "scripts/markdown-it-plugins.min.js": {
+            "id": "gi5EDWtqKdGwM2XE2oXRWmb7PjKLE-GWztxLOCjU380"
+        },
+        "bundle.css": {
+            "id": "coCSf1oHK_wonyNGe-ptH7ki9DXRHtkgRzi7buo_F4A"
+        },
+        "bundle.js": {
+            "id": "PqHLgm5BeZstYN1wjpbT-vEgG7jpg3W8PR4jAEtTppY"
+        },
+        "global.css": {
+            "id": "bXhM9jLXbWcZKEIfNePE4j30xnLnd5Yc90GyviC7x4w"
+        },
+        "index.html": {
+            "id": "FnFrmLC9j9Ey4MSjt7b2FAFyHMtsCiFjO8vPlY2q_yU"
+        },
+        "manifest.json": {
+            "id": "uq6p1j-QhR1M4n_ddo-mL-N7k4ZX0v5KDQ5NeTsmMjk"
+        },
+        "sw.js": {
+            "id": "Z8WD12g6uPW5Znfk0QwmNOQILUaCK4mBDP6gSKAjJv4"
+        }
+    }
+}
