@@ -1,5 +1,9 @@
 # ArAcademic / CHANGELOG
 
+### 1.1.0 (2019-11-16)
+* Service Worker auto caching
+* Introduction `ARTICLE_MIN_LENGTH` to prevent spam 
+
 ### 1.0.0 (2019-11-08)
 * Published release
 

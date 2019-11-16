@@ -2,6 +2,7 @@
     import {publish} from './Article';
     import {onMount} from 'svelte';
     import {catchAnchorLinks, documentTitle} from './Helpers';
+    import {ARTICLE_MIN_LENGTH} from "./Constants";
 
     export let wallet;
     export let address;
@@ -148,7 +149,7 @@
         <div>
             <input type="text" name="title" placeholder="Article title" required bind:value={title}>
 
-            <textarea name="content" placeholder="Article content" required bind:value={content}></textarea>
+            <textarea name="content" placeholder="Article content" minlength="{ARTICLE_MIN_LENGTH}" required bind:value={content}></textarea>
         </div>
 
         <nav>

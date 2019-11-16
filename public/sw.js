@@ -1,14 +1,26 @@
+const CACHE_NAME = 'ArAcademic';
+
 self.addEventListener('fetch', event => {
     const request = event.request;
     const url = new URL(request.url);
 
-    if (url.origin !== location.origin) {
+    if (url.origin !== location.origin || request.method.toLowerCase() !== 'get') {
         return;
     }
 
     event.respondWith(
-        caches.match(event.request).then(function(response) {
-            return response || fetch(event.request);
+        caches.open(CACHE_NAME).then(cache => {
+            return cache.match(request).then(response => {
+                return response || fetch(request).then(response => {
+                    if (!response || response.status !== 200 || response.type !== 'basic') {
+                        return response;
+                    }
+
+                    cache.put(request, response.clone());
+
+                    return response;
+                });
+            });
         })
     );
 });

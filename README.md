@@ -7,13 +7,15 @@
     High-quality Open Access publishing
 </p>
 
-[Arweave](https://www.arweave.org) ÐApp (decentralized application) for publishing academic articles which are freely available for anyone in the world to use.
+[Arweave](https://www.arweave.org) ÐApp for publishing academic articles which are freely available for anyone in the world to use.
 
-Be a part of the academic community, submit publications on ArAcademic under a [Creative Commons](https://creativecommons.org/licenses/) license or under [Open Access](https://en.wikipedia.org/wiki/Open_access), original work under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. All submitted publications can be read by everyone. An Arweave Wallet is required for writing articles.
+Be a part of the academic community, submit publications on ArAcademic under a [Creative Commons](https://creativecommons.org/licenses/) license or under [Open Access](https://en.wikipedia.org/wiki/Open_access), original work under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+
+All submitted publications can be read by everyone. An Arweave Wallet is required for writing articles.
 
 
 ### ArAcademic on Permaweb
-https://zin5cpdlbh2z.arweave.net/tkErnRH0GP2pk9T8hl2tO1oq3VF9qN2RnCUQGrvb9vc/index.html
+https://ss6puabcq3ch.arweave.net/5Yeg3wT4COQL6Bz-tdp9xlmeiwgcOO8NupjpEUDXZ5Y/index.html
 
 ### Markdown vs. PDF
 ArAcademic is not an uploader for PDF files. In fact, the application focuses on writing an article: Distraction free editor with auto save and instant preview. The publisher should have it comfortable to write and publish a manuscript on any device. 

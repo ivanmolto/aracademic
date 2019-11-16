@@ -1,6 +1,6 @@
 import {arweave} from "./Arweave";
 import {read} from "./Article";
-import {APP_NAME} from "./Constants";
+import {APP_NAME, ARTICLE_MIN_LENGTH} from "./Constants";
 
 export const articlesByAddress = async address => {
     const txIds = await arweave.arql(
@@ -45,7 +45,9 @@ const fillTxIdsWithData = async txIds => {
         txIds.map(async txId => {
             const tx = await read(txId);
 
-            txs = [...txs, tx];
+            if (tx.data.length >= ARTICLE_MIN_LENGTH) {
+                txs = [...txs, tx];
+            }
         })
     );
 
